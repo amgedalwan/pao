@@ -1,0 +1,360 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+   
+/*------- header ---------*/
+
+.right-menu li {
+
+     display:inline-block ;
+     color: white;
+     margin-top: 30px !important;
+ }
+
+ .right-menu li .fa{
+
+     font-size: 18px;
+     margin-right: 10px;
+     cursor: pointer;
+ }
+
+ .navbar-brand img {
+      width: 200px;
+ }
+ .navbar-brand {
+        left: 47%;
+        top: 20px; 
+        transform: translateX(-50%);
+        position: absolute;
+      max-width: 100%;
+        
+ }
+ .header {
+      
+     background: #082e3c ;
+     margin-bottom: 80px;
+ }
+  .navbar {
+      
+      direction: rtl;
+    
+ }
+ .navbar-toggler{
+     border: none !important;
+     outline: none !important;
+     padding: 0 !important;
+     margin-top: 30px !important;
+     
+ }
+ .navbar-toggler .fa {
+     font-size: 30px ;
+     cursor: pointer ;
+ }
+ .banner-img {
+      margin: 80px 115px; 
+      width: 60%;
+      margin-top: 30px;
+ }
+ .banner-img img {
+      width: 100%;
+      margin-bottom: -80px;
+ }
+ .banner {
+      position: relative ;
+ }
+ .banner-title {
+
+     position: absolute; 
+      left: 50%;
+      top: 20%
+ }
+ .banner-title h1 {
+      font-size: 55px;
+      background: rgba(0,0,0,0.75);
+      color: #fff;
+      line-height:70px;
+      padding: 0 10px 0 10px;
+  
+ }
+.navbar-nav .nav-item .nav-link{
+     color: #fff !important;
+}
+
+ /*------trends------*/
+
+ .trends {
+      padding: 40px 0;
+ }
+ .trends-box {
+      margin: 0 0;
+
+ }
+ .title-style h1{
+      padding: 40px 0;
+      
+ }
+ .title-style {
+      margin: 0 auto 35px;
+      height: 120px;
+      width: 80%;
+      max-width: 517px;
+      background: #fff;
+      position: relative;
+       box-shadow:  0 2px 3px 0 rgba(0,0,50,0.5)
+
+ }
+
+ .title-style::after{
+      content: '';
+      height: 100px;
+      width: 200px;
+      background-color: #f992a6;
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      z-index: -1;
+ }
+ .title-style::before{
+     content: '';
+     height: 100px;
+     width: 200px;
+     background-color: #f992a6;
+     position: absolute;
+     bottom: -10px;
+     right: -10px;
+     z-index: -1;
+}
+.title-style:hover {
+      box-shadow:  0 4px 8px 0 rgba(0,0,50,0.5);
+}
+ /*------card------*/
+ .card{
+     border-radius: 50px 0 !important;
+}
+.card-body{
+     display: flex;
+flex-flow: wrap;
+justify-content: center;
+overflow: hidden;
+ }
+.card:hover{
+     box-shadow: 2px 2px 12px rgba(47,47,47,0.40);
+  }
+ .card-title{
+     overflow: hidden;
+     position: relative;
+     top: 0;
+     height: 110px;
+     background-color: #ff696a;
+     width: 110px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+     .card-title:hover{
+          transform: scale(1.1);
+          background-color: #fe9048;
+          box-shadow: 2px 2px 12px rgba(47,47,47,0.40);
+          transition: all ease 0.1s;
+      }
+     
+   
+
+
+ /*--------slid1---------*/
+ .slid {
+     background-color:#082e3c ;
+     background-size:cover;
+     background-position:center;
+ }
+ /*-------- gols---------*/
+ .blog{
+     margin: 50px 0 50px 0;
+}
+
+.box{
+     max-width: 100%;
+     height: auto;
+     background-color:;
+     display: flex;
+     flex-flow: column;
+     text-align: center;
+        border-radius: 4px 14px;
+     background-color: #a5e2ff7a;
+ }
+ .d{
+     display: flex;
+flex-direction: column;
+align-items: center;
+box-sizing: border-box;
+font-size: 19px;
+line-height: 55px;
+padding-bottom: 10px;  }
+
+
+ /*-------- offer---------*/
+ .offer {
+     background-image: url(img/log.jpg);
+     background-size:cover;
+     background-position:center;
+ }
+ .row {
+      margin: inherit !important;
+ }
+ .subscribe{
+      max-width: 500;
+margin-top: 80;
+      padding: 60px;
+      background:#ffffff8c;
+      margin-bottom:20px;  
+ }
+ .subscribe a {
+      width: 100px;
+      display: block;
+      color: #fff !important;
+      background: #000;
+      text-decoration: none !important;
+      padding: 5px;
+      text-align: center;
+ }
+ .offer-img{
+     width: 100%;
+     height: auto;
+     margin: -100px;
+     margin-top: 10px;
+ }
+ .offer img{
+     height: 427px;
+ 
+     margin-top: 55px;
+ }
+ .video {
+     width: 100%;
+     height: auto;
+   }
+/*.............fashion-blog..............*/
+
+ 
+ @media only screen and (max-width: 992px) 
+ {
+     .banner-img {
+          margin: 50px ;
+          width: 80%;
+          margin-top: 15px;
+     }
+     .banner-title {
+
+          top: 150px;
+           left: 50%;
+           transform: translatex(-50%);  
+      }
+      .banner-title h1 {
+           font-size: 16px;
+           padding: 5px;
+           line-height:20px ;
+
+      }
+      .title-style h1{
+         font-size: 25px;
+          
+     }
+     .fashion-box {
+          margin: 1px 0;
+     }
+     #cards{
+         
+          height:auto ;
+     }
+    
+     
+ } 
+ .text-dark{
+     border-radius: 0 10px;
+ }
+ @media only screen and (max-width: 750px) 
+ {
+     #cards{
+          margin-top: 10px;
+
+          height:auto ;
+     }
+     .subscribe{
+          margin-top:0;      
+     }
+ }
+
+
+      
+    .dbox .icon {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     background: #95adbe;
+     margin: 0 auto;
+     margin-bottom: 20px;
+ }
+ .dbox .icon span {
+     font-size: 30px;
+     color: #fff;
+ }
+ .slider-text h1 {
+     font-size: 60px;
+     color: #000000;
+     line-height: 1.1;
+     font-weight: 500;
+     font-family: "Roboto", Arial, sans-serif;
+ }   
+ .contact-wrap {
+     background: #fff;
+ }
+ .mb-4, .my-4 {
+     margin-bottom: 1.5rem !important;
+ }
+ .contactForm .label {
+     color: #95adbe !important;
+     text-transform: uppercase;
+     font-size: 12px;
+     font-weight: 600;
+ }
+ .contactForm .form-control {
+     height: 36px;
+     background: #fff;
+     color: rgba(0, 0, 0, 0.5);
+     font-size: 14px;
+     border-radius: 2px;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+ }
+ 
+ .contactForm .form-control {
+     border: none;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+     padding: 0;
+ }
+ .btn.btn-primary {
+     background: #95adbe !important;
+     border: 1px solid #95adbe !important;
+     color: #fff !important;
+ }
+
+ @media (min-width: 768px){
+.p-md-5 {
+    padding: 3rem !important;
+}
+}
+@media (min-width: 768px){
+.pl-md-4, .px-md-4 {
+    padding-left: 1.5rem !important;
+}}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;
+}}
+@media (min-width: 992px){
+.container {
+    max-width: 960px;
+}}
